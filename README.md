@@ -96,7 +96,7 @@ Inspects system‑level and user‑level services for:
 ### Cron Artifacts
 Audits cron tables and spool entries for scheduled execution that warrants review.
 
-### Shell Initialization
+### Shell Initialisation
 Examines shell startup files (e.g. `.bashrc`, `.profile`, `.zshrc`) that execute implicitly on login or shell start.
 
 ### XDG Autostart
