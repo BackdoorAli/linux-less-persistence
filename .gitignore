@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Runtime / tool outputs
+baseline*.json
+output*.json
+llp_report*.json
+
+# Logs
+*.log
+
+# Local configs / secrets
+.env
+.env.*
+
+# Packaging
+pip-wheel-metadata/

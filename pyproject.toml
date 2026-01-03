@@ -1,0 +1,44 @@
+[project]
+# Distribution name (what `pip install` refers to). Import package remains `llp`.
+name = "linux-less-persistence"
+version = "0.1.0"
+description = "Defensive audit toolkit for low-artifact persistence signals on Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE.md" }
+authors = [{ name = "BackdoorAli", url = "https://github.com/BackdoorAli" }]
+keywords = ["linux", "security", "audit", "persistence", "dfir", "threat-hunting", "red-team", "blue-team"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+  "Topic :: System :: Monitoring",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/BackdoorAli/linux-less-persistence"
+Repository = "https://github.com/BackdoorAli/linux-less-persistence"
+Issues = "https://github.com/BackdoorAli/linux-less-persistence/issues"
+
+[project.scripts]
+llp = "llp.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
