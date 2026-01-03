@@ -39,9 +39,9 @@ This project is published with **explicit defensive and educational intent**.
 It is designed to help identify *signals* and *patterns* that may indicate persistence abuse, without providing actionable guidance on how to establish or maintain persistence.
 
 You must only use this software on systems you:
-- own,
-- administer, or
-- are explicitly authorized to assess.
+- own
+- administer
+- are explicitly authorised to assess.
 
 By using this tool, you agree to comply with all applicable laws and regulations.
 
