@@ -86,22 +86,22 @@ pip install -e .
 
 ## Modules & Detection Surfaces
 
-### 🔹 systemd Units
+### systemd Units
 Inspects system‑level and user‑level services for:
 - unexpected local overrides
 - drop‑in configuration snippets
 - risky or unusual execution paths
 
-### 🔹 Cron Artifacts
+### Cron Artifacts
 Audits cron tables and spool entries for scheduled execution that warrants review.
 
-### 🔹 Shell Initialization
+### Shell Initialization
 Examines shell startup files (e.g. `.bashrc`, `.profile`, `.zshrc`) that execute implicitly on login or shell start.
 
-### 🔹 XDG Autostart
+### XDG Autostart
 Reviews desktop autostart `.desktop` entries that execute on graphical session launch.
 
-### 🔹 Runtime / Memory‑Only Processes
+### Runtime / Memory‑Only Processes
 Flags running processes whose executables originate from ephemeral or memory‑backed locations.
 
 All findings are **heuristic signals**, not conclusions. Context and analyst judgment are required.
