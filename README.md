@@ -105,7 +105,7 @@ Reviews desktop autostart `.desktop` entries that execute on graphical session l
 ### Runtime / Memory‑Only Processes
 Flags running processes whose executables originate from ephemeral or memory‑backed locations.
 
-All findings are **heuristic signals**, not conclusions. Context and analyst judgment are required.
+All findings are **heuristic signals**, not conclusions. Context and analytical judgment are required.
 
 ---
 
