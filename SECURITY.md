@@ -88,7 +88,7 @@ You must only use this software on systems you own or are explicitly authorised 
 
 Users are responsible for complying with all applicable laws and regulations.
 
-The maintainer does not endorse or condone malicious or unauthorized use of this software.
+The maintainer does not endorse or condone malicious or unauthorised use of this software.
 
 ---
 
