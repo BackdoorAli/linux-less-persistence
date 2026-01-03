@@ -76,7 +76,7 @@ The following content will be rejected or removed if submitted:
 - Exploitation workflows
 - Obfuscation or evasion techniques
 - Malicious payload examples
-- Content encouraging unauthorized access
+- Content encouraging unauthorised access
 
 Repeated violations may result in issue closure or blocking.
 
