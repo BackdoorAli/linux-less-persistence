@@ -84,7 +84,7 @@ Repeated violations may result in issue closure or blocking.
 
 ## Ethical & Legal Use Reminder
 
-You must only use this software on systems you own or are explicitly authorized to assess.
+You must only use this software on systems you own or are explicitly authorised to assess.
 
 Users are responsible for complying with all applicable laws and regulations.
 
