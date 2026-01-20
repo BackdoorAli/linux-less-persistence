@@ -159,7 +159,7 @@ llp --format json
 
 ---
 
-## Red Team Perspective (Conceptual)
+## Red Team Perspective
 
 From a red team standpoint, effective persistence is rarely about complexity — it is about **invisibility**.
 
