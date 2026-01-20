@@ -19,7 +19,7 @@ Supported security-related feedback includes:
 
 This project does **not** support or accept:
 - Exploit code
-- Payloads or weaponized scripts
+- Payloads or weaponised scripts
 - Step-by-step persistence deployment techniques
 - Instructions for bypassing security controls
 - Offensive tradecraft automation
