@@ -7,7 +7,7 @@ GitHub: https://github.com/BackdoorAli
 
 ## Scope & Supported Use
 
-The **Linux Less-Persistence** project is a defensive security research toolkit.
+The **Linux Less-Persistence** project is a defensive security research project/toolkit.
 Its scope is limited to **auditing, detection, and analysis** of persistence-related signals on Linux systems.
 
 Supported security-related feedback includes:
