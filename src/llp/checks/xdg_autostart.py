@@ -5,7 +5,7 @@ from typing import List, Tuple
 from llp.core.models import Evidence, Finding
 from llp.core.utils import read_text
 
-# XDG autostart locations (user-level and system-level)
+# XDG autostart locations (user-level and system-level).
 XDG_AUTOSTART_DIRS = [
     Path.home() / ".config" / "autostart",
     Path("/etc/xdg/autostart"),
@@ -32,7 +32,7 @@ def _scan_desktop_file(path: Path) -> List[Tuple[str, str]]:
 
     lowered = text.lower()
 
-    # Look specifically at Exec= lines, but keep it simple/robust
+    # Look specifically at Exec= lines, but keep it simple/robust.
     exec_lines = [l for l in lowered.splitlines() if l.strip().startswith("exec=")]
     joined = "\n".join(exec_lines) if exec_lines else lowered
 
