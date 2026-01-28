@@ -58,7 +58,7 @@ def _collect_system_artifacts() -> List[CronArtifact]:
             artifacts.append(CronArtifact(kind="file", path=p, owner=_path_owner(p)))
         elif p.is_dir():
             for child in sorted(p.glob("*")):
-                # cron.* dirs can contain scripts; /etc/cron.d contains cron files
+                # cron.* dirs can contain scripts; /etc/cron.d contains cron files.
                 if child.is_file():
                     artifacts.append(CronArtifact(kind="dir_entry", path=child, owner=_path_owner(child)))
 
@@ -71,7 +71,7 @@ def _collect_user_spool_artifacts() -> List[CronArtifact]:
         if not d.exists() or not d.is_dir():
             continue
         for child in sorted(d.glob("*")):
-            # Debian uses per-user files with strict perms; still treat as artifacts
+            # Debian uses per-user files with strict perms; still treat as artifacts.
             if child.is_file():
                 artifacts.append(CronArtifact(kind="user_spool", path=child, owner=_path_owner(child)))
     return artifacts
@@ -148,7 +148,7 @@ def run() -> List[Finding]:
         # We still emit a finding for visibility, but lower severity when no flags.
         severity = _severity_from(flags)
         if not flags:
-            # Keep noise manageable: only emit 'info' for a small subset (e.g., /etc/crontab)
+            # Keep noise manageable: only emit 'info' for a small subset (e.g., /etc/crontab).
             if a.path != Path("/etc/crontab"):
                 continue
 
