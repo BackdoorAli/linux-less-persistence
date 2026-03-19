@@ -11,7 +11,7 @@
 ## Author
 
 **BackdoorAli**  
-GitHub: https://github.com/BackdoorAli
+https://github.com/BackdoorAli
 
 ---
 
