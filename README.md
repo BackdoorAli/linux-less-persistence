@@ -17,7 +17,7 @@ https://github.com/BackdoorAli
 
 ## Overview
 
-**Linux Less‑Persistence** is a modular, defensive security toolkit designed to help security professionals examine *low‑artifact persistence mechanisms* on Linux systems.
+**Linux Less‑Persistence** is a modular, defensive security project/toolkit designed to help security professionals examine *low‑artifact persistence mechanisms* on Linux systems.
 
 It focuses on persistence surfaces frequently abused by attackers, while deliberately avoiding operational or step‑by‑step instructions. The goal is **visibility and understanding**, not enablement.
 
