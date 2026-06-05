@@ -28,7 +28,7 @@ This project does **not** support or accept:
 
 ## Reporting a Vulnerability
 
-If you believe you have found a **security-relevant issue** in this project, please report it **privately**.
+If you believe you have found a **security relevant issue** in this project, please report it **privately**.
 
 ### Preferred method
 - Contact the author via GitHub: https://github.com/BackdoorAli
